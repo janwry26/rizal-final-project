@@ -1,1 +1,1 @@
-# rizal-final-project
+FINAL PROJECT FOR LIFE AND WORKS OF RIZAL
