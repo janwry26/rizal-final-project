@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-bottom: 1px solid black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 4rem;
+    margin: 10px 15px;
+}
