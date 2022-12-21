@@ -28,6 +28,12 @@ header {
 	height: 80px;
 	font-weight: bold;
 	color: black;
+	background: url('../assets/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1600px;
+	border-radius: 30px;
+
 }
 
 nav a {
@@ -38,6 +44,8 @@ nav a {
 
 nav a:hover {
 	color: var(--secondaryColor);
+	font-size: larger;
+	transition: all 0.3s;
 }
 
 header .nav-btn {
@@ -98,5 +106,10 @@ nav {
 
 	nav a {
 		font-size: 1.5rem;
+		
+	}
+	nav a:hover{
+		color: var(--secondaryColor);
+		transition: all 0.3s;
 	}
 }
