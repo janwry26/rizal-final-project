@@ -1,0 +1,39 @@
+.hero-section{
+    height: 100vh;
+    background-color: #f2eecb;
+    background: url('../assets/hero-bg.jpg');
+    background-repeat: no-repeat;
+	background-position: center;    
+    display: flex;
+    align-items: center;
+}
+.hero-container{
+   
+}
+.hero-paragraph{
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.img-fluid{
+    width: 420px;
+}
+.img-container{
+   vertical-align: middle;
+    
+}
+.hero-paragraph{ 
+    text-align: center;
+    
+}
+@media only screen and (max-width: 1024px){
+    .img-container{
+       display: flex;
+       justify-content: center;
+         
+     }
+     .hero-section{
+        height: 120vh;
+     }
+}

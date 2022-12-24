@@ -22,6 +22,8 @@
 }
 
 header {
+	position: sticky;
+	top: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,8 +33,8 @@ header {
 	background: url('../assets/header-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 1600px;
-	border-radius: 30px;
+	background-size: 5000px;
+	border-radius: 20px;
 
 }
 
@@ -44,7 +46,7 @@ nav a {
 
 nav a:hover {
 	color: var(--secondaryColor);
-	font-size: larger;
+	
 	transition: all 0.3s;
 }
 
@@ -100,8 +102,7 @@ nav {
 	nav .nav-close-btn {
 		position: absolute;
 		top: 2rem;
-		right: 2rem;
-       
+		right: 2rem;  
 	}
 
 	nav a {
