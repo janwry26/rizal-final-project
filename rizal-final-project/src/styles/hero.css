@@ -1,14 +1,10 @@
 .hero-section{
     height: 100vh;
-    background-color: #f2eecb;
     background: url('../assets/hero-bg.jpg');
     background-repeat: no-repeat;
 	background-position: center;    
     display: flex;
     align-items: center;
-}
-.hero-container{
-   
 }
 .hero-paragraph{
     word-spacing: 5px;
