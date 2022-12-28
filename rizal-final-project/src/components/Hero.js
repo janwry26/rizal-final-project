@@ -3,9 +3,9 @@ import rizal from '../assets/hero-rizal.jpg'
 function Hero(){
     return(
         <section className='hero-section'>
-          <div class="container px-5 hero-container">
-            <div class="row gx-5">
-                <div class="col-lg-6 col-md-12 align-self-center hero-paragraph">
+          <div className="container px-5 hero-container">
+            <div className="row gx-5">
+                <div className="col-lg-6 col-md-12 align-self-center hero-paragraph">
                    <div className='row my-3 mx-2 '>
                         <div className='col-lg-12  '>
                             <p className='fs-1 fw-bold'>
@@ -34,7 +34,7 @@ function Hero(){
                         </div>
                    </div>
                 </div>
-                <div class="col-lg-6 col-md-12 img-container ">
+                <div className="col-lg-6 col-md-12 img-container ">
                     
                        <img className='img-fluid img-thumbnail' src={rizal}/>
                   
