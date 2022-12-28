@@ -1,0 +1,13 @@
+.animation{
+    width: 500px;
+    height: 70px;
+    background-color: maroon;
+    margin: 10px;
+   
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
