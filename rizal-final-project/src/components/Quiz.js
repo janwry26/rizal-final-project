@@ -37,10 +37,12 @@ function Quiz() {
 
   if (currentQuestion >= quizData.length) {
     return (
+      <section className='score-section'>
       <div className='score'>
         <p>Quiz complete! Your score is {score} out of {quizData.length}.</p>
         <button onClick={handleReset}>Try Again</button>
       </div>
+      </section>
     );
   }
 
@@ -48,6 +50,7 @@ function Quiz() {
   const { question, options } = currentQuizData;
 
   return (
+    <section className='question-section'>
     <div className='quiz-container'>
       <h1>{question}</h1>
       <div>
@@ -58,6 +61,7 @@ function Quiz() {
        </div>
       <p >Score: {score}</p>
     </div>
+    </section>
   );
 }
 
