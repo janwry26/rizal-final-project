@@ -37,7 +37,7 @@ function Quiz() {
 
   if (currentQuestion >= quizData.length) {
     return (
-      <div>
+      <div className='score'>
         <p>Quiz complete! Your score is {score} out of {quizData.length}.</p>
         <button onClick={handleReset}>Try Again</button>
       </div>
