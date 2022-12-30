@@ -56,7 +56,7 @@ function Quiz() {
 
   return (
     <section className='question-section'>
-    <div className='quiz-container' data-aos="flip-left" key={currentQuestion}>
+    <div className='quiz-container' data-aos="flip-right" key={currentQuestion}>
       <p>{question}</p>
       <div className='options'>
 
