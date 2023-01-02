@@ -14,24 +14,20 @@ function Hero(){
                         </div>
                         <div className='col-lg-12'>
                             <p>
-                                [ano pwede lagay?]
+                                Pambansang bayani
                             </p>
                         </div>
                         <div className='col-lg-12'>
                             <p>
-                                [ano pwede lagay?]
+                                ng
                             </p>
                         </div>
                         <div className='col-lg-12'>
                             <p>
-                                [ano pwede lagay?]
+                                Pilipinas
                             </p>
                         </div>
-                        <div className='col-lg-12'>
-                            <p>
-                                [ano pwede lagay?]
-                            </p>
-                        </div>
+                        
                    </div>
                 </div>
                 <div className="col-lg-6 col-md-12 img-container ">

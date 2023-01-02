@@ -1,13 +1,101 @@
-.animation{
-    width: 500px;
-    height: 70px;
-    background-color: maroon;
-    margin: 10px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section .topic-section {
+    margin-top: 20px;
    
 }
-.top{
+
+.Faqs {
+   
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f2eecb;
+}
+
+.Faqs h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    letter-spacing: 7px;
+    font-size: 32px;
+}
+
+.faq-title {
+    margin-bottom: 50px;
+}
+
+.accordion-button {
+    background-color: #FEF5DA;
+    font-size: 24px;
+}
+
+.accordion-item {
+    background-color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 12px;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button:not(.collapsed) {
+    border-radius: 12px 12px 0 0;
+}
+
+.accordion-flush .accordion-item {
+    border-radius: 0 0 12px 5px;
+    
+}
+.accordion-flush .accordion-item:not(.collapsed) {
+    border-radius: 12px;
+    border: 2px solid #000;
+}
+
+.accordion-button:hover {
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+}
+
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.accordion-body > p {
+    text-align: left;
+}
+
+.accordion-button::after {
+    background-image: url("https://akveo.github.io/eva-icons/outline/svg/plus-outline.svg");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("https://akveo.github.io/eva-icons/outline/svg/minus-outline.svg");
+}
+
+@media (max-width: 918px) {
+    .Faqs {
+        padding: 25px;
+    }
+    .Faqs h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    .accordion-body p {
+        font-size: 18px;
+    }
 }

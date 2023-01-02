@@ -8,14 +8,117 @@ function Section1(){
         AOS.init()
     },[]);
     return(
-        <div className='top'>
-            <h1 className='text-center'>WELCOME TO REACT ANIMATION</h1>
-            <h1>FADE</h1>
-            <div className='animation' data-aos="fade-right" ></div>
-            <div className='animation' data-aos="fade-right"></div>
-            <div className='animation' data-aos="flip-right"></div>
-            <div className='animation' data-aos="fade-right"></div>
+        <section className="topic-section" id="faqsId">
+        <div className="Faqs">
+            {/* HEADER SECTION */}
+            <div className="container text-center">
+                <div className="row faq-title gx-5">
+                    <div className="col-lg-12">
+                        <h1>TOPIC 1: RIZAL'S EXILE IN DAPITAN</h1>
+                    </div>
+                    <div className='col-lg-12'>
+                    The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
+                    </div>
+                    <div className='col-lg-12'>
+                    The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
+                    </div>
+                    <div className='col-lg-12'>
+                    The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
+                    </div>
+                </div>
+
+
+                
+                <div className="row">
+                    <div className="col">
+                        <div className="accordion accordion-flush" id="accordionFlushExample">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header"  id="flush-headingOne">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    MINTING DETAILS?
+                                </button>
+                                </h2>   
+                                <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div className="accordion-body">
+                                    <p>
+                                        Each eggplant would only cost 2 MATIC for Talong Lovers (OG) and Talonglisted (WL)5 MATIC during public minting.
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="flush-headingTwo">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    MISSION & VISION?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div className="accordion-body">
+                                    <p>
+                                        MISSION <br />
+                                        It aims to CONNECT PEOPLE, SUPPORT LOCAL ARTISTS, and PROMOTE SOCIAL INVOLVEMENT. <br />
+                                        <br />
+                                        VISION <br />
+                                        For it TO BE ENGAGED IN SOCIAL, ARTISTIC, and FUN ACTIVITIES with the help of experts and community members.
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="flush-headingThree">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> 
+                                    MAIN UTILITIES OF THE PROJECT?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div className="accordion-body">
+                                    <p>
+                                        #1 TROPANG TALONG MEMBERSHIP <br />
+                                        #2 EXCLUSIVE WEB3 SKILLS WORKSHOP <br />
+                                        #3 ACCESS TO TALONG ALPHA CHANNEL <br />
+                                        #4 ACCESS TO PARTNER DISCOUNTS <br />
+                                        #5 TALONG PHYSICAL ITEMS (COMING SOON)
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="flush-headingFour">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    WHAT MAKES RISING EGGPLANT DIFFERENT?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div className="accordion-body">
+                                    <p>
+                                        It is community-focused, goal-driven, and socially involved. The project aims to <br />
+                                        develop certain values from the community members and make them experience a <br />
+                                        community that promotes involvement and development in various ways.
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="flush-headingFive">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    WHAT'S THE END GOAL?
+                                </button>
+                                </h2>
+                                <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div className="accordion-body">
+                                    <p>
+                                        The end goal is to provide personal and skill development to the holders, as well <br />
+                                        as bring them new connections and opportunities they may embrace.
+                                    </p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
     )
 }
 export default Section1;
