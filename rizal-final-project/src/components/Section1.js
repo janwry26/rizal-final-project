@@ -13,18 +13,7 @@ function Section1(){
             {/* HEADER SECTION */}
             <div className="container text-center">
                 <div className="row faq-title gx-5">
-                    <div className="col-lg-12">
-                        <h1>TOPIC 1: RIZAL'S EXILE IN DAPITAN</h1>
-                    </div>
-                    <div className='col-lg-12'>
-                    The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
-                    </div>
-                    <div className='col-lg-12'>
-                    The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
-                    </div>
-                    <div className='col-lg-12'>
-                    The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
-                    </div>
+                 <h1>participation</h1>
                 </div>
 
 
@@ -35,7 +24,7 @@ function Section1(){
                             <div className="accordion-item">
                                 <h2 className="accordion-header"  id="flush-headingOne">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    MINTING DETAILS?
+                                        type here
                                 </button>
                                 </h2>   
                                 <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -49,7 +38,7 @@ function Section1(){
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="flush-headingTwo">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    MISSION & VISION?
+                                    type here
                                 </button>
                                 </h2>
                                 <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -67,7 +56,7 @@ function Section1(){
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="flush-headingThree">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> 
-                                    MAIN UTILITIES OF THE PROJECT?
+                                    type here
                                 </button>
                                 </h2>
                                 <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -85,7 +74,7 @@ function Section1(){
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="flush-headingFour">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    WHAT MAKES RISING EGGPLANT DIFFERENT?
+                                        type here
                                 </button>
                                 </h2>
                                 <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
@@ -101,7 +90,7 @@ function Section1(){
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="flush-headingFive">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                    WHAT'S THE END GOAL?
+                                        type here
                                 </button>
                                 </h2>
                                 <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
