@@ -1,7 +1,6 @@
 import '../styles/quiz.css';
-import "aos/dist/aos.css";
-import AOS from 'aos';
-import {useEffect,useState } from 'react';
+
+import {useState } from 'react';
 
 
 const quizData = [
@@ -19,9 +18,8 @@ const quizData = [
 ];
 
 function Quiz() {
-  useEffect(()=>{
-    AOS.init({duration:1500})
-  },[]);
+
+
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [score, setScore] = useState(0);
@@ -43,7 +41,8 @@ function Quiz() {
   if (currentQuestion >= quizData.length) {
     return (
       <section className='score-section'>
-      <div className='score' data-aos="fade-left" key={currentQuestion}>
+      <div className='score' data-aos="fade-right" data-aos-duration="1500"
+  data-aos-offset="200" key={currentQuestion}>
         <p>Quiz complete! Your score is {score} out of {quizData.length}.</p>
         <button className='btn-quiz' onClick={handleReset}>Try Again</button>
       </div>
@@ -56,7 +55,8 @@ function Quiz() {
 
   return (
     <section className='question-section'>
-    <div className='quiz-container' data-aos="flip-right" key={currentQuestion}>
+    <div className='quiz-container' data-aos="fade-up" data-aos-duration="1500"
+  data-aos-offset="200" key={currentQuestion}>
       <p>{question}</p>
       <div className='options'>
 

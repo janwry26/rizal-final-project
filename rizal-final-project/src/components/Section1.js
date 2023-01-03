@@ -1,19 +1,13 @@
 import '../styles/section1.css';
-import "aos/dist/aos.css";
-import AOS from 'aos';
 import {useEffect } from 'react';
-
 function Section1(){
-    useEffect(()=>{
-        AOS.init()
-    },[]);
     return(
         <section className="topic-section" id="faqsId">
         <div className="Faqs">
             {/* HEADER SECTION */}
             <div className="container text-center">
                 <div className="row faq-title gx-5">
-                 <h1>participation</h1>
+                 <h1>SUMMARY</h1>
                 </div>
 
 
