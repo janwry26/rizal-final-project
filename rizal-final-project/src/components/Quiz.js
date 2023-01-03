@@ -56,7 +56,7 @@ function Quiz() {
   return (
     <section className='question-section'>
     <div className='quiz-container' data-aos="fade-up" data-aos-duration="1500"
-  data-aos-offset="200" key={currentQuestion}>
+    data-aos-offset="200" key={currentQuestion}>
       <p>{question}</p>
       <div className='options'>
 

@@ -1,5 +1,6 @@
 /* article.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .article {
      width: 100%;
     margin: 0 auto;
@@ -9,17 +10,20 @@
     background-color: #fafafa;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background: url('../assets/bg-article.jpg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 	background-position: center;    
-    
+   
   }
   
   .article__title {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 20px;
-    color: #333;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgb(100, 61, 61);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Montserrat';
+
   }
   
   .article__meta {
@@ -28,18 +32,9 @@
     margin-bottom: 20px;
   }
   
-  .article__avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+
   
-  .article__author-info {
-    display: flex;
-    flex-direction: column;
-  }
+
   
   .article__author-name {
     font-size: 14px;
@@ -78,6 +73,19 @@
   .article__content > p {
     flex: 1 0 50%;
     margin-bottom: 20px;
+    font-weight: 400;
+    color: #333; /* dark color for the text */
+    text-shadow: 0 2px 4px rgba(100, 61, 61, 0.5); /* subtle text shadow */
+    font-size: 24px; /* larger font size */
+    font-family: 'Lato', sans-serif;
+  }
+  .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(100, 61, 61);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: 'Montserrat';
   }
   
   @media (max-width: 1024px) {
