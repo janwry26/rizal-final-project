@@ -78,6 +78,7 @@
     text-shadow: 0 2px 4px rgba(100, 61, 61, 0.5); /* subtle text shadow */
     font-size: 24px; /* larger font size */
     font-family: 'Lato', sans-serif;
+    text-align: justify;
   }
   .title{
     font-size: 30px;
