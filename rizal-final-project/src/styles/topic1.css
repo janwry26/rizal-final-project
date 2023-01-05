@@ -91,11 +91,13 @@
     font-family: 'Montserrat';
   }
   .carousel{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 20px;
   }
-  
+  .carousel img{
+    height: 580px;
+  }
   @media (max-width: 1024px) {
     .article {
       font-size: 14px;
