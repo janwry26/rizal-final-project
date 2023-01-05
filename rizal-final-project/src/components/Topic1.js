@@ -23,6 +23,11 @@ import farewell from '../assets/hero-farewell.jpg';
 import farewell1 from '../assets/hero-farewell1.jpg';
 import issue from '../assets/hero-issue.jpg';
 import issue1 from '../assets/hero-issue1.jpg';
+import hero from '../assets/carousel-hero.png';
+import hero1 from '../assets/carousel-hero1.jpg';
+import hero2 from '../assets/carousel-hero2.jpg';
+import hero3 from '../assets/carousel-hero3.jpg';
+
 
 
 
@@ -498,25 +503,56 @@ function Article() {
         </p>
 
       </div>
-    <div className='hero-container'>
-      <img
-        src={issue}
-        alt="Hero image"
-        className="article__hero-image img-fluid img-thumbnail"
-        data-aos="fade-left"
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-aos="flip-up"
         data-aos-duration="1500"
-        data-aos-offset="200"
-        />
-        <img
-        src={issue1}
-        alt="Hero image"
-        className="article__hero-image img-fluid img-thumbnail"
-        data-aos="fade-right"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        />  
-      
-    </div>
+        data-aos-offset="200">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src={hero} class="d-block w-100 img-fluid img-thumbnail  " alt="..."/>
+            <div class="carousel-caption  d-md-block ">
+              <h1>DR. JOSE RIZAL</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src={hero1} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
+            <div class="carousel-caption d-md-block">
+              <h1>ANDRES BONIFACIO</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src={hero2} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
+            <div class="carousel-caption  d-md-block ">
+              <h1>EMILIO AGUINALDO</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src={hero3} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
+            <div class="carousel-caption  d-md-block ">
+              <h1>APOLINARIO MABINI</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </article>
   );
 }
