@@ -521,25 +521,25 @@ function Article() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src={hero} class="d-block w-100 img-fluid img-thumbnail  " alt="..."/>
-            <div class="carousel-caption  d-md-block ">
+            <div class="carousel-caption d-none  d-md-block ">
               <h1>DR. JOSE RIZAL</h1>
             </div>
           </div>
           <div class="carousel-item">
             <img src={hero1} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption d-none d-md-block">
               <h1>ANDRES BONIFACIO</h1>
             </div>
           </div>
           <div class="carousel-item">
             <img src={hero2} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption  d-md-block ">
+            <div class="carousel-caption d-none d-md-block ">
               <h1>EMILIO AGUINALDO</h1>
             </div>
           </div>
           <div class="carousel-item">
             <img src={hero3} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption  d-md-block ">
+            <div class="carousel-caption d-none d-md-block ">
               <h1>APOLINARIO MABINI</h1>
             </div>
           </div>

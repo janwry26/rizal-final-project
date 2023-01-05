@@ -99,18 +99,25 @@
     height: 580px;
   }
   @media (max-width: 1024px) {
-    .article {
-      font-size: 14px;
+    .article p{
+      font-size: 20px;
     }
   
     .article__title {
       font-size: 30px;
     }
+    .title{
+      font-size: 25px;
+    }
+   
   
     .article__hero-image {
       height: 300px;
     }
     .hero-container{
         flex-direction: column;
+    }
+    .carousel img{
+      height: auto;
     }
 }

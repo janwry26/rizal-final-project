@@ -8,8 +8,8 @@ function Hero(){
                 <div className="col-lg-6 col-md-12 align-self-center hero-paragraph">
                    <div className='row my-3 mx-2 '>
                         <div className='col-lg-12'>
-                            <p className='title-header'>
-                                Dr. Jose Rizal
+                            <p className='title'>
+                               <span> Dr. Jose Rizal </span>
                             </p>
                         </div>
                         <div className='col-lg-12'>

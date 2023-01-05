@@ -15,7 +15,7 @@
     font-weight: 700;
    
 }
-.title-header{
+.title span{
     word-spacing: 5px;
     letter-spacing: 10px;
     color: rgb(121, 93, 57);
@@ -39,11 +39,16 @@
     .img-container{
        display: flex;
        justify-content: center;
-        padding-bottom: 20px;
      }
      .hero-section{
-        height: 120vh;
+        height: 110vh;
      }
-     .title-header{
+     .title span{
+       font-size: 35px;
+      
+     }
+   
+     .row p{
+        font-size: 20px;
      }
 }
