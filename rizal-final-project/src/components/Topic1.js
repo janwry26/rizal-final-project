@@ -35,7 +35,7 @@ import hero3 from '../assets/carousel-hero3.jpg';
 
 function Article() {
   return (
-    <article className="article">
+    <article className="article" id='topic'>
       <h1 className="article__title text-center py-3" data-aos="fade-up">RIZAL’S EXILE IN DAPITAN </h1>
     <h1 className='text-center title'  
         data-aos="fade-left"    

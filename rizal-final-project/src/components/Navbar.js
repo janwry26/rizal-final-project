@@ -15,8 +15,8 @@ function Navbar() {
                 <img src={logo}/>
             </div>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
+				<a href="#home">Home</a>
+				<a href="#topic">Topic</a>
 				<a href="/#">Group no.</a>
 				<a href="/#">About me</a>
 				<button
