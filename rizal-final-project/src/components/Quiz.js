@@ -5,14 +5,24 @@ import {useState } from 'react';
 
 const quizData = [
   {
-    question: 'What is the capital of France?',
-    options: ['Paris', 'London', 'Berlin', 'Rome'],
-    answer: 'Paris'
+    question: '1.	What is the name of the town where Jose Rizal was exiled?',
+    options: ['Dapitan', 'Tondo', 'Calamba', 'Germany'],
+    answer: 'Dapitan'
   },
   {
-    question: 'What is the highest mountain in the world?',
-    options: ['Mount Everest', 'K2', 'Kangchenjunga', 'Lhotse'],
-    answer: 'Mount Everest'
+    question: '2.	How many years did Rizal stay in Dapitan?',
+    options: ['4 Years', '2 Years', '1 Year ', '3 Years'],
+    answer: '4 Years'
+  },
+  {
+    question: '3.	Why was Jose Rizal exiled to Dapitan?',
+    options: ['For his involvement in the Philippine Revolution', 'For his criticism of the Spanish colonial government', 'For his involvement in a plot to assassinate the Governor-General of the Philippines', 'For his involvement in a criminal organization'],
+    answer: 'For his criticism of the Spanish colonial government'
+  },
+  {
+    question: '4.	What did Rizal do during his exile in Dapitan?',
+    options: ['Worked as a farmer', 'Worked as a teacher', 'Worked as a physician', 'All of the above'],
+    answer: 'All of the above'
   },
   // Add more questions here...
 ];
