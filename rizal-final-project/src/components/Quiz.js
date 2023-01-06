@@ -6,25 +6,54 @@ import {useState } from 'react';
 const quizData = [
   {
     question: '1.	What is the name of the town where Jose Rizal was exiled?',
-    options: ['Dapitan', 'Tondo', 'Calamba', 'Germany'],
-    answer: 'Dapitan'
+    options: ['A. Dapitan', 'B. Tondo', 'C. Calamba', 'D. Germany'],
+    answer: 'A. Dapitan'
   },
   {
     question: '2.	How many years did Rizal stay in Dapitan?',
-    options: ['4 Years', '2 Years', '1 Year ', '3 Years'],
-    answer: '4 Years'
+    options: ['A. 4 Years', 'B. 2 Years', 'C. 1 Year ', 'D. 3 Years'],
+    answer: 'A. 4 Years'
   },
   {
     question: '3.	Why was Jose Rizal exiled to Dapitan?',
-    options: ['For his involvement in the Philippine Revolution', 'For his criticism of the Spanish colonial government', 'For his involvement in a plot to assassinate the Governor-General of the Philippines', 'For his involvement in a criminal organization'],
-    answer: 'For his criticism of the Spanish colonial government'
+    options: ['A. For his involvement in the Philippine Revolution', 'B. For his criticism of the Spanish colonial government', 'C. For his involvement in a plot to assassinate the Governor-General of the Philippines', 'D. For his involvement in a criminal organization'],
+    answer: 'B. For his criticism of the Spanish colonial government'
   },
   {
     question: '4.	What did Rizal do during his exile in Dapitan?',
-    options: ['Worked as a farmer', 'Worked as a teacher', 'Worked as a physician', 'All of the above'],
-    answer: 'All of the above'
+    options: ['A. Worked as a farmer', 'B. Worked as a teacher', 'C. Worked as a physician', 'D. All of the above'],
+    answer: 'D. All of the above'
   },
-  // Add more questions here...
+  {
+    question: "5.	How did Rizal's exile in Dapitan affect his relationship with the Philippine Revolution?",
+    options: ['A. It strengthened his support for the revolution', 'B. It weakened his support for the revolution', 'C. It had no impact on his support for the revolution', 'D. It led to his active participation in the revolution'],
+    answer: 'B. It weakened his support for the revolution'
+  },
+  {
+    question: '6.	What did Rizal write during his exile in Dapitan?',
+    options: ['A. El Filibusterismo', 'B. Mi último adiós', 'C. both a and b', 'D. None of the above'],
+    answer: 'C. both a and b'
+  },
+  {
+    question: '7.	What did Rizal do to improve the lives of the people of Dapitan during his exile? ',
+    options: ['A.	Built a water system', 'B.	Established a hospital', 'C.	Implemented several agricultural and educational projects', 'D.	All of the above'],
+    answer: 'D.	All of the above'
+  },
+  {
+    question: "8.	What impact did Rizal's exile in Dapitan have on Philippine history? ",
+    options: ['A.	It inspired the Philippine Revolution', "B.	It shaped the country's identity", 'C. Both a and b', 'D.	None of the above'],
+    answer: 'C. Both a and b'
+  },
+  {
+    question: '9.	What Rizal do in volunteering in Cuba?',
+    options: ['A.	As a farmer', 'B.	As a painter', 'C. As an army doctor', 'D.	As a writer'],
+    answer: 'C. As an army doctor'
+  },
+  {
+    question: "10.	How did Rizal's exile in Dapitan impact his personal life? ",
+    options: ['A.	It strained his relationship with his family', 'B. It allowed him to focus on his writing and intellectual pursuits ','C.	It provided him with new experiences and perspectives', 'D.	All of the above'],
+    answer: 'D.	All of the above'
+  },
 ];
 
 function Quiz() {
