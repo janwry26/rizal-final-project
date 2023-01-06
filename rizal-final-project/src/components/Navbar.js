@@ -17,7 +17,7 @@ function Navbar() {
 			<nav ref={navRef}>
 				<a href="#home">Home</a>
 				<a href="#topic">Topic</a>
-				<a href="/#">Group no.</a>
+				<a href="#team">Team</a>
 				<a href="/#">About me</a>
 				<button
 					className="nav-btn nav-close-btn"

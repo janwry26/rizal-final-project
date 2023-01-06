@@ -1,5 +1,27 @@
 .team-section{
     height: 100vh;
+    background: url('../assets/team-bg.jpg');
+    background-repeat: no-repeat;
+	background-position: center;  
+    background-size: 100% 100%;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+.card-container{
+    display: flex;
+    gap: 1.5rem;
+}
+.team-title{
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    color: rgb(121, 93, 57);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    font-family: 'Montserrat';
+    font-size: 55px;
+    font-weight: 700;
 }
 
 .card {
@@ -7,6 +29,8 @@
     height: 254px;
     background: #f5f5f5;
     position: relative;
+    border-radius: 16px;
+
     box-shadow: 0px 2px 5px rgba(35,35,35,0.3);
     transition: box-shadow .3s ease-in-out;
    }
@@ -18,15 +42,19 @@
     text-align: center;
     text-emphasis-color: pink;
    }
-   
+   .profile img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+   }
    /*Image*/
    .card-img {
-    background: #00ff88;
-    background: url('../assets/profile.png');
-    background-color: pink;
-	background-position: center;    
-    object-fit: cover; 
-    background-size: 100% 100%;
+    background: rgba(185, 174, 125, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(185, 174, 125, 0.3);
     height: 95%;
     width: 100%;
     position: absolute;
@@ -102,4 +130,14 @@
    
    .card:hover .social-media li:nth-child(3) {
     transition-delay: .2s;
+   }
+   @media (max-width: 1024px) {
+    .team-section{
+        height: auto;
+        padding: 100px;
+    }
+    .card-container{
+       gap: 5rem;
+       flex-direction: column;
+    }
    }
