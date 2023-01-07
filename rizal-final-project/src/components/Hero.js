@@ -5,7 +5,7 @@ function Hero(){
         <section className='hero-section' id='home'>
           <div className="container px-5 hero-container">
             <div className="row gx-5">
-                <div className="col-lg-6 col-md-12 align-self-center hero-paragraph">
+                <div className="col-lg-6 col-md-12 align-self-center hero-paragraph" data-aos="zoom-in-right"  data-aos-duration="1000">
                    <div className='row my-3 mx-2 '>
                         <div className='col-lg-12'>
                             <p className='title'>
@@ -30,7 +30,7 @@ function Hero(){
                         
                    </div>
                 </div>
-                <div className="col-lg-6 col-md-12 img-container ">
+                <div className="col-lg-6 col-md-12 img-container " data-aos="zoom-in-left"  data-aos-duration="1000">
                     
                        <img className='img-fluid img-thumbnail' src={rizal}/>
                   

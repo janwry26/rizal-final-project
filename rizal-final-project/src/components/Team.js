@@ -15,7 +15,7 @@ function Team(){
             </div>
             <div className='card-container'>
            
-            <div class="card">
+            <div className="card" data-aos="zoom-in-right"  data-aos-duration="1000">
                 <div className="card-img"> 
                 <div className='profile'>
 
@@ -38,7 +38,7 @@ function Team(){
                     <p class="subtitle">Web Developer</p>
                 </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
                 <div className="card-img"> 
                 <div className='profile'>
 
@@ -61,8 +61,8 @@ function Team(){
                     <p class="subtitle">Researcher</p>
                 </div>
         </div>
-        <div class="card">
-                <div className="card-img"> 
+        <div class="card" data-aos="zoom-in-down" data-aos-duration="1000">
+                <div className="card-img" > 
                 <div className='profile'>
 
                     <img  className="img-fluid"src={profile2}/>
@@ -84,8 +84,8 @@ function Team(){
                     <p class="subtitle">UI Designer</p>
                 </div>
         </div>
-        <div class="card">
-                <div className="card-img"> 
+        <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
+                <div className="card-img" > 
                 <div className='profile'>
 
                     <img  className="img-fluid"src={profile3}/>
@@ -107,7 +107,7 @@ function Team(){
                     <p class="subtitle">Researcher</p>
                 </div>
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in-right" data-aos-duration="1000">
                 <div className="card-img"> 
                 <div className='profile'>
 
