@@ -8,20 +8,24 @@ function Navbar() {
 	const showNavbar = () => {
 		navRef.current.classList.toggle("responsive_nav");
 	};
+	const handleLinkClick = (event) => {
+		showNavbar();
+		window.location.href = event.target.href;
+	  };
+	  
 
 	return (
+		
 		<header>
 			<div className="logo">
                 <img src={logo}/>
             </div>
 			<nav ref={navRef}>
-				<a href="#home">Home</a>
-				<a href="#topic">Topic</a>
-				<a href="#team">Team</a>
-				<a href="/#">About me</a>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
+				<a href="#home" onClick={handleLinkClick}>Home</a>
+				<a href="#topic" onClick={handleLinkClick}>Topic</a>
+				<a href="#team" onClick={handleLinkClick}>Team</a>
+				<a href="#contact" onClick={handleLinkClick}>Contact</a>
+				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
 					<FaTimes />
 				</button>
 			</nav>

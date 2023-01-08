@@ -43,13 +43,15 @@
      }
      .hero-section{
         height: 110vh;
+    
+
      }
-     .title span{
-       font-size: 35px;
-      
+     p.title span{
+        font-size: 26px;
      }
+  
    
      .row p{
-        font-size: 20px;
+        font-size: 15px;
      }
 }
