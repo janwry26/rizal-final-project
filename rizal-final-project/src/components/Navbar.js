@@ -18,7 +18,7 @@ function Navbar() {
 		
 		<header>
 			<div className="logo">
-                <img src={logo}/>
+                <img src={logo} alt="navbar-pic"/>
             </div>
 			<nav ref={navRef}>
 				<a href="#home" onClick={handleLinkClick}>Home</a>

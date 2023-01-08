@@ -64,7 +64,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={exile}
-        alt="Hero image"
+        alt="Hero image1"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -72,7 +72,7 @@ function Article() {
         />
         <img
         src={exile1}
-        alt="Hero image"
+        alt="Hero image2"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -133,7 +133,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={arrive}
-        alt="Hero image"
+        alt="Hero image3"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -141,7 +141,7 @@ function Article() {
         />
         <img
         src={arrive1}
-        alt="Hero image"
+        alt="Hero image4"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -176,7 +176,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={house}
-        alt="Hero image"
+        alt="Hero image4"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -184,7 +184,7 @@ function Article() {
         />
         <img
         src={workshop}
-        alt="Hero image"
+        alt="Hero image5"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -192,7 +192,7 @@ function Article() {
         />  
           <img
         src={clinic}
-        alt="Hero image"
+        alt="Hero image6"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -218,7 +218,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={religion}
-        alt="Hero image"
+        alt="Hero image7"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -226,7 +226,7 @@ function Article() {
         />
         <img
         src={religion1}
-        alt="Hero image"
+        alt="Hero image8"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -260,7 +260,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={career}
-        alt="Hero image"
+        alt="Hero image8"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -268,7 +268,7 @@ function Article() {
         />
         <img
         src={career1}
-        alt="Hero image"
+        alt="Hero image9"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -296,7 +296,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={affair}
-        alt="Hero image"
+        alt="Hero image10"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -304,7 +304,7 @@ function Article() {
         />
         <img
         src={affair1}
-        alt="Hero image"
+        alt="Hero image11"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -322,11 +322,12 @@ function Article() {
         data-aos-offset="200"
         >
         <p>
-          Before the revolution began, Katipunan leader Andres Bonifacio sought advice from Jose Rizal. On May 2, 1896, the group agreed in a secret meeting at Pasig's Bitukang Manok river to send Dr. Pio Valenzuela as a representative to Dapitan to inform Rizal of their plan to launch a revolution against the Spaniards. Valenzuela boarded the steamer Venus on June 15, 1892 and arrived in Dapitan six days later with a blind companion, Raymundo Mata. In the evening, Rizal and Valenzuela talked in the former's garden. Valenzuela informed him of the Katipunan's plan. Rizal was outspoken in his opposition to Bonifacio's "premature" idea for two reasons: <br/><br/>
+          Before the revolution began, Katipunan leader Andres Bonifacio sought advice from Jose Rizal. On May 2, 1896, the group agreed in a secret meeting at Pasig's Bitukang Manok river to send Dr. Pio Valenzuela as a representative to Dapitan to inform Rizal of their plan to launch a revolution against the Spaniards. Valenzuela boarded the steamer Venus on June 15, 1892 and arrived in Dapitan six days later with a blind companion, Raymundo Mata. In the evening, Rizal and Valenzuela talked in the former's garden. Valenzuela informed him of the Katipunan's plan. Rizal was outspoken in his opposition to Bonifacio's "premature" idea for two reasons: <br/><br/></p>
           <ol>
             <li>The Filipinos had not yet prepared for such a bloody revolution; and</li>
             <li>The Katipunan lacked machinery - before planning a revolution, sufficient arms and funds must be gathered.</li>
           </ol>
+          <p>
           Valenzuela also informed Rizal of their plan to bring him back to Dapitan. Again, the exiled hero objected because he had no intention of breaking his word to the Spanish authorities.
         </p>
        
@@ -334,7 +335,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={katipunan}
-        alt="Hero image"
+        alt="Hero image12"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -342,7 +343,7 @@ function Article() {
         />
         <img
         src={katipunan1}
-        alt="Hero image"
+        alt="Hero image13"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -368,7 +369,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={cuba}
-        alt="Hero image"
+        alt="Hero image14"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -376,7 +377,7 @@ function Article() {
         />
         <img
         src={cuba1}
-        alt="Hero image"
+        alt="Hero image15"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -402,7 +403,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={farewell}
-        alt="Hero image"
+        alt="Hero image16"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -410,7 +411,7 @@ function Article() {
         />
         <img
         src={farewell1}
-        alt="Hero image"
+        alt="Hero image17"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -437,7 +438,7 @@ function Article() {
     <div className='hero-container'>
       <img
         src={issue}
-        alt="Hero image"
+        alt="Hero image18"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -445,7 +446,7 @@ function Article() {
         />
         <img
         src={issue1}
-        alt="Hero image"
+        alt="Hero image19"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"
@@ -465,7 +466,7 @@ function Article() {
         data-aos-offset="200"
         >
          <h3 className='title'>CRITERIA OF NATIONAL HERO </h3>
-       <p>
+       
         <ol>
           <li>
           Heroes are people who have a sense of nation and then strive and fight for their country's freedom.
@@ -477,9 +478,9 @@ function Article() {
           Heroes are those who improve a nation's quality of life and destiny.
           </li>
         </ol>
-       </p>
+       
        <h3 className='title'>ADDITIONAL CRITERIA FOR HEROES </h3>
-       <p>
+       
         <ol>
           <li>
           A hero is an expression of the people
@@ -491,9 +492,9 @@ function Article() {
           Choosing a hero entails not only recounting an episode or events in history, but also the entire process that led to this particular person becoming a hero.
           </li>
         </ol>
-       </p>
+      
        <h3 className='title'>HISTORICAL FIGURES RECOMMENDED AS NATIONAL HEROES </h3>
-        <p>
+        
           <ol type='A'>
             <li>Jose Rizal</li>
             <li>Andres Bonifacio</li>
@@ -505,17 +506,17 @@ function Article() {
             <li>Melchora Aquino</li>
             <li>Gabriela Silang</li>
           </ol>
-        </p>
+        
        <h3 className='title'>CONCLUSION</h3>
        <p>
         No action has been taken since the National Heroes Committee submitted its report/recommendations to then Secretary Ricardo T. Gloria of the Department of Education, Culture, and Sports on November 22, 1995. This was most likely due to the possibility of a flood of requests for proclamations. Another possibility is that the proclamations will spark heated debates about historical controversies surrounding the heroes.
         </p>
 
       </div>
-      <div id="carouselExampleCaptions" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel"  data-aos="fade-up"
+      <div id="carouselExampleCaptions" className="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel"  data-aos="fade-up"
         data-aos-duration="1500"
         >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -527,69 +528,69 @@ function Article() {
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={hero} class="d-block w-100 img-fluid img-thumbnail  " alt="..."/>
-            <div class="carousel-caption d-none  d-md-block ">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={hero} className="d-block w-100 img-fluid img-thumbnail  " alt="topic1"/>
+            <div className="carousel-caption d-none  d-md-block ">
               <h1>DR. JOSE RIZAL</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero1} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={hero1} className="d-block w-100 img-fluid img-thumbnail" alt="topic2"/>
+            <div className="carousel-caption d-none d-md-block">
               <h1>ANDRES BONIFACIO</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero2} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero2} className="d-block w-100 img-fluid img-thumbnail" alt="topic3"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>EMILIO AGUINALDO</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero3} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero3} className="d-block w-100 img-fluid img-thumbnail" alt="topic4"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>APOLINARIO MABINI</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero4} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero4} className="d-block w-100 img-fluid img-thumbnail" alt="topic5"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>MARCELO H. DEL PILAR</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero5} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero5} className="d-block w-100 img-fluid img-thumbnail" alt="topic6"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>SULTAN DIPATUAN KUDARAT</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero6} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero6} className="d-block w-100 img-fluid img-thumbnail" alt="topic7"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>JUAN LUNA</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero7} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero7} className="d-block w-100 img-fluid img-thumbnail" alt="topic8"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>MELCHORA AQUINO</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={hero8} class="d-block w-100 img-fluid img-thumbnail" alt="..."/>
-            <div class="carousel-caption d-none d-md-block ">
+          <div className="carousel-item">
+            <img src={hero8} className="d-block w-100 img-fluid img-thumbnail" alt="topic9"/>
+            <div className="carousel-caption d-none d-md-block ">
               <h1>GABRIELA SILANG</h1>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
       <h1 className='text-center title'  
@@ -629,7 +630,7 @@ function Article() {
           </p>
           <h3 className='title'>IS RIZAL STILL RELEVANT?</h3>
 
-            <p>
+            
               <ul>
                 <li>
                 Jose Rizal is still relevant because the social problems or "ills" that he exposed, criticized, and attempted to solve persist. Corruption, injustice, unqualified and/or incompetent government officials, and poverty are all persistent problems in the Philippines.
@@ -644,13 +645,13 @@ function Article() {
                 Jose Rizal will always play an important role in the evolution of Philippine nationalism.
                 </li>
               </ul>
-            </p>
+           
        
       </div>
     <div className='hero-container'>
       <img
         src={last}
-        alt="Hero image"
+        alt="Hero image20"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
@@ -658,7 +659,7 @@ function Article() {
         />
         <img
         src={last1}
-        alt="Hero image"
+        alt="Hero image21"
         className="article__hero-image img-fluid img-thumbnail"
         data-aos="fade-right"
         data-aos-duration="1500"

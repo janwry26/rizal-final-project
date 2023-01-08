@@ -42,12 +42,12 @@ function Footer(){
  
 			<div className="footer-right">
  
-				<p class="footer-company-about">
+				<p className="footer-company-about">
 					<span>About the project</span>
 					This project is for the final requirements for the Life and Works of Rizal
 				</p>
  
-				<div class="footer-icons">
+				<div className="footer-icons">
  
 					<a href="https://www.facebook.com/Janwryyyyy" target="_blank"><i className="fa fa-facebook"></i></a>
 					<a href="https://twitter.com/Janwryyyyy" target="_blank"><i className="fa fa-twitter"></i></a>

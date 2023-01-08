@@ -5,31 +5,37 @@ import {useState } from 'react';
 
 const quizData = [
   {
+    key: 1,
     question: '1.	What is the name of the town where Jose Rizal was exiled?',
     options: ['A. Dapitan', 'B. Tondo', 'C. Calamba', 'D. Germany'],
     answer: 'A. Dapitan'
   },
   {
+    key: 2,
     question: '2.	How many years did Rizal stay in Dapitan?',
     options: ['A. 4 Years', 'B. 2 Years', 'C. 1 Year ', 'D. 3 Years'],
     answer: 'A. 4 Years'
   },
   {
+    key: 3,
     question: '3.	Why was Jose Rizal exiled to Dapitan?',
     options: ['A. For his involvement in the Philippine Revolution', 'B. For his criticism of the Spanish colonial government', 'C. For his involvement in a plot to assassinate the Governor-General of the Philippines', 'D. For his involvement in a criminal organization'],
     answer: 'B. For his criticism of the Spanish colonial government'
   },
   {
+    key: 4,
     question: '4.	What did Rizal do during his exile in Dapitan?',
     options: ['A. Worked as a farmer', 'B. Worked as a teacher', 'C. Worked as a physician', 'D. All of the above'],
     answer: 'D. All of the above'
   },
   {
+    key: 5,
     question: "5.	How did Rizal's exile in Dapitan affect his relationship with the Philippine Revolution?",
     options: ['A. It strengthened his support for the revolution', 'B. It weakened his support for the revolution', 'C. It had no impact on his support for the revolution', 'D. It led to his active participation in the revolution'],
     answer: 'B. It weakened his support for the revolution'
   },
   {
+    key: 3z,
     question: '6.	What did Rizal write during his exile in Dapitan?',
     options: ['A. El Filibusterismo', 'B. Mi último adiós', 'C. both a and b', 'D. None of the above'],
     answer: 'C. both a and b'
@@ -106,7 +112,6 @@ function Quiz() {
       <p >Score: {score}</p>
     </div>
   
-
     </section>
    
   );
