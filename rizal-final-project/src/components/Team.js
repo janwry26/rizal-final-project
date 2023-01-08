@@ -81,7 +81,7 @@ function Team(){
                 </ul>
                 <div class="card-info">
                     <p class="title1">Mark Ace B.</p>
-                    <p class="subtitle">UI Designer</p>
+                    <p class="subtitle">Web Designer</p>
                 </div>
         </div>
         <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
@@ -127,7 +127,7 @@ function Team(){
                 </ul>
                 <div class="card-info">
                     <p class="title1">Zidjan Isaac M.</p>
-                    <p class="subtitle">Researcher</p>
+                    <p class="subtitle">Web Designer</p>
                 </div>
         </div>
         </div>

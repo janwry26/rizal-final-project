@@ -24,7 +24,7 @@ function Navbar() {
 				<a href="#home" onClick={handleLinkClick}>Home</a>
 				<a href="#topic" onClick={handleLinkClick}>Topic</a>
 				<a href="#team" onClick={handleLinkClick}>Team</a>
-				<a href="#contact" onClick={handleLinkClick}>Contact</a>
+				<a href="#about" onClick={handleLinkClick}>About</a>
 				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
 					<FaTimes />
 				</button>

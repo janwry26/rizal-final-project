@@ -32,8 +32,7 @@ header {
 	background: url('../assets/header-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 5000px;
-	border-radius: 20px;
+	background-size: 9999px;
 	z-index: 999;
 }
 
@@ -77,7 +76,7 @@ nav {
 	}
     header{
         justify-content: space-between;
-        margin: 4px;
+        
     }
 
 

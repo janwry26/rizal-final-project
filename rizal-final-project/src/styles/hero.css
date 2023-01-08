@@ -41,11 +41,7 @@
        display: flex;
        justify-content: center;
      }
-     .hero-section{
-        height: 110vh;
     
-
-     }
      p.title span{
         font-size: 26px;
      }

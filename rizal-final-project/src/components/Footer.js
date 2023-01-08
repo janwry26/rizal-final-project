@@ -3,7 +3,7 @@ import '../styles/footer.css'
 
 function Footer(){
     return(
-       <div className='footer-section' id='contact'>
+       <div className='footer-section' id='about'>
 
 		<footer className="footer-distributed">
  
@@ -15,7 +15,7 @@ function Footer(){
 					<li><a href="#home">Home</a></li>				
                     <li><a href="#topic">Topic</a></li>
                     <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
 				</ul>
  
 				<p className="footer-company-name">Worked on this project @ 2022-2023</p>

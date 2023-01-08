@@ -1,14 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-section .topic-section {
-    margin-top: 20px;
-   
+.faq-title, .topic-title{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: rgb(100, 61, 61);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
-
 .Faqs {
    
     display: flex;
@@ -33,6 +31,7 @@ section .topic-section {
 .accordion-button {
     background-color: #FEF5DA;
     font-size: 24px;
+    font-weight: 400;
 }
 
 .accordion-item {
@@ -40,6 +39,9 @@ section .topic-section {
     margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    
+
 }
 
 .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
@@ -74,7 +76,8 @@ section .topic-section {
 }
 
 .accordion-body > p {
-    text-align: left;
+    text-align: justify;
+    text-indent: 50px;
 }
 
 .accordion-button::after {
