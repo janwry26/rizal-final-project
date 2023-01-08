@@ -2,7 +2,7 @@ import '../styles/section1.css';
 import {useEffect } from 'react';
 function Section1(){
     return(
-        <section className="topic-section" id="faqsId">
+        <section className='summary-section'>
         <div className="Faqs">
             {/* HEADER SECTION */}
             <div className="container text-center">
@@ -233,7 +233,7 @@ function Section1(){
                 </div>
             </div>
         </div>
-    </section>
+        </section>
     )
 }
 export default Section1;
