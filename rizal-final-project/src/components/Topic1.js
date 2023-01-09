@@ -630,7 +630,7 @@ function Article() {
           </p>
           <h3 className='title'>IS RIZAL STILL RELEVANT?</h3>
 
-            
+            <p>
               <ul>
                 <li>
                 Jose Rizal is still relevant because the social problems or "ills" that he exposed, criticized, and attempted to solve persist. Corruption, injustice, unqualified and/or incompetent government officials, and poverty are all persistent problems in the Philippines.
@@ -645,7 +645,7 @@ function Article() {
                 Jose Rizal will always play an important role in the evolution of Philippine nationalism.
                 </li>
               </ul>
-           
+              </p>
        
       </div>
     <div className='hero-container'>
