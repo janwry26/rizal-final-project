@@ -35,7 +35,7 @@ const quizData = [
     answer: 'B. It weakened his support for the revolution'
   },
   {
-    key: 3,
+    key: 3z,
     question: '6.	What did Rizal write during his exile in Dapitan?',
     options: ['A. El Filibusterismo', 'B. Mi último adiós', 'C. both a and b', 'D. None of the above'],
     answer: 'C. both a and b'

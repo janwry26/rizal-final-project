@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/footer.css'
-import { IconName } from "react-icons/fa";
+
 function Footer(){
     return(
        <div className='footer-section' id='about'>
