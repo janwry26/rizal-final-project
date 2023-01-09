@@ -14,7 +14,7 @@ function Hero(){
                         </div>
                         <div className='col-lg-12'>
                             <p>
-                                Pambansang bayani upload
+                                Pambansang bayani
                             </p>
                         </div>
                         <div className='col-lg-12'>
