@@ -21,7 +21,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <Topic1/>
-    {/* <Quiz/> */}
+    <Quiz/>
     <Section1/>
     <Team/>
     <Footer/>
