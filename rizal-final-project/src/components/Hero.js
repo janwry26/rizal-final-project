@@ -9,7 +9,7 @@ function Hero(){
                    <div className='row my-3 mx-2 '>
                         <div className='col-lg-12'>
                             <p className='title'>
-                               <span> Dr. Jose Rizal POGI </span>
+                               <span> Dr. Jose Rizal</span>
                             </p>
                         </div>
                         <div className='col-lg-12'>
