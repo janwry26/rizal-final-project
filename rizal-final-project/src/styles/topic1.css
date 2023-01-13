@@ -60,6 +60,8 @@
     display: flex;
     width: 90%;
     margin: 0 auto;
+   gap: 1rem;
+
   }
   
   .article__content {
