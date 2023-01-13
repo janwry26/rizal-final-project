@@ -316,10 +316,12 @@ function Article() {
         >
         <p>
           Before the revolution began, Katipunan leader Andres Bonifacio sought advice from Jose Rizal. On May 2, 1896, the group agreed in a secret meeting at Pasig's Bitukang Manok river to send Dr. Pio Valenzuela as a representative to Dapitan to inform Rizal of their plan to launch a revolution against the Spaniards. Valenzuela boarded the steamer Venus on June 15, 1892 and arrived in Dapitan six days later with a blind companion, Raymundo Mata. In the evening, Rizal and Valenzuela talked in the former's garden. Valenzuela informed him of the Katipunan's plan. Rizal was outspoken in his opposition to Bonifacio's "premature" idea for two reasons: <br/><br/></p>
+          <p>
           <ol>
             <li>The Filipinos had not yet prepared for such a bloody revolution; and</li>
             <li>The Katipunan lacked machinery - before planning a revolution, sufficient arms and funds must be gathered.</li>
           </ol>
+          </p>
           <p>
           Valenzuela also informed Rizal of their plan to bring him back to Dapitan. Again, the exiled hero objected because he had no intention of breaking his word to the Spanish authorities.
         </p>
