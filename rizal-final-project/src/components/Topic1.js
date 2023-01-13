@@ -65,7 +65,7 @@ function Article() {
       <img
         src={exile}
         alt="Hero image1"
-        className="article__hero-image img-fluid img-thumbnail"
+        className="article__hero-image  img-thumbnail"
         data-aos="fade-left"
         data-aos-duration="1500"
         data-aos-offset="200"
@@ -190,14 +190,7 @@ function Article() {
         data-aos-duration="1500"
         data-aos-offset="200"
         />  
-          <img
-        src={clinic}
-        alt="Hero image6"
-        className="article__hero-image img-fluid img-thumbnail"
-        data-aos="fade-left"
-        data-aos-duration="1500"
-        data-aos-offset="200"
-        />  
+        
       
     </div>
     <h1 className='text-center title'  
@@ -466,7 +459,7 @@ function Article() {
         data-aos-offset="200"
         >
          <h3 className='title'>CRITERIA OF NATIONAL HERO </h3>
-       
+       <p>
         <ol>
           <li>
           Heroes are people who have a sense of nation and then strive and fight for their country's freedom.
@@ -478,9 +471,9 @@ function Article() {
           Heroes are those who improve a nation's quality of life and destiny.
           </li>
         </ol>
-       
+        </p>
        <h3 className='title'>ADDITIONAL CRITERIA FOR HEROES </h3>
-       
+       <p>
         <ol>
           <li>
           A hero is an expression of the people
@@ -492,9 +485,9 @@ function Article() {
           Choosing a hero entails not only recounting an episode or events in history, but also the entire process that led to this particular person becoming a hero.
           </li>
         </ol>
-      
+        </p>
        <h3 className='title'>HISTORICAL FIGURES RECOMMENDED AS NATIONAL HEROES </h3>
-        
+       <p>
           <ol type='A'>
             <li>Jose Rizal</li>
             <li>Andres Bonifacio</li>
@@ -506,7 +499,7 @@ function Article() {
             <li>Melchora Aquino</li>
             <li>Gabriela Silang</li>
           </ol>
-        
+          </p>
        <h3 className='title'>CONCLUSION</h3>
        <p>
         No action has been taken since the National Heroes Committee submitted its report/recommendations to then Secretary Ricardo T. Gloria of the Department of Education, Culture, and Sports on November 22, 1995. This was most likely due to the possibility of a flood of requests for proclamations. Another possibility is that the proclamations will spark heated debates about historical controversies surrounding the heroes.

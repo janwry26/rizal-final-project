@@ -12,9 +12,9 @@
     background: url('../assets/bg-article.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-	background-position: center;    
-  overflow-x: hidden;
-   
+	  background-position: center;    
+    overflow-x: hidden;
+
   }
   
   .article__title {
@@ -50,18 +50,16 @@
   }
   
   .article__hero-image {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    margin-bottom: 20px;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+   
   }
   .hero-container{
     display: flex;
     width: 90%;
     margin: 0 auto;
-    gap: 1rem;
   }
   
   .article__content {
