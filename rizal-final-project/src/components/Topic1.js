@@ -35,6 +35,7 @@ import hero8 from '../assets/carousel-hero8.jpg';
 import last from '../assets/hero-last.jpg';
 import last1 from '../assets/hero-last1.jpg';
 
+import { useState } from 'react';
 
 
 
@@ -43,8 +44,10 @@ import last1 from '../assets/hero-last1.jpg';
 
 
 function Article() {
+  const [showMore, setShowMore] = useState(false);
   return (
     <article className="article" id='topic'>
+        
       <h1 className="article__title text-center py-3" data-aos="fade-up">RIZAL’S EXILE IN DAPITAN </h1>
     <h1 className='text-center title'  
         data-aos="fade-left"    
@@ -58,8 +61,22 @@ function Article() {
         >
         <p>
             The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
+       <div className='show-more'>
+      {showMore ? (
+        <div >
+          <button onClick={() => setShowMore(false)}>Show Less</button>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      ) : (
+        <div>
+          <button onClick={() => setShowMore(true)}>Show More</button>
+        </div>
+      )}
+    </div>
         </p>
-       
+      
       </div>
     <div className='hero-container'>
       <img
