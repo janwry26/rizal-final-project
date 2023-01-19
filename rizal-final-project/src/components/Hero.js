@@ -1,5 +1,5 @@
 import '../styles/hero.css'
-import rizal from '../assets/hero-rizal.jpg'
+import rizal from '../assets/hero-rizal.png'
 function Hero(){
     return(
         <section className='hero-section' id='home'>
@@ -30,9 +30,9 @@ function Hero(){
                         
                    </div>
                 </div>
-                <div className="col-lg-6 col-md-12 img-container " data-aos="zoom-in-left"  data-aos-duration="1000">
+                <div className="col-lg-6 col-md-12 img-container" data-aos="zoom-in-left"  data-aos-duration="1000">
                     
-                       <img className='img-fluid img-thumbnail' alt="hero-pic" src={rizal}/>
+                       <img className='img-fluid' alt="hero-pic" src={rizal}/>
                   
                 </div>
             </div>
