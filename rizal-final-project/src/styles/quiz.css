@@ -54,7 +54,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('../assets/quiz-bg.jpg');
+    background: url('../assets/summary-bg.jpg');
+
     background-repeat: no-repeat;
 	background-position: center;    
     background-size: 100% 100%;
@@ -69,7 +70,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('../assets/quiz-bg.jpg');
+    background: url('../assets/summary-bg.jpg');
+
     background-repeat: no-repeat;
 	background-position: center;    
     background-size: 100% 100%;

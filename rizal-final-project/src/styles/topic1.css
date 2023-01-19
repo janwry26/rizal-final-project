@@ -9,7 +9,8 @@
     line-height: 1.5;
     background-color: #fafafa;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: url('../assets/bg-article.jpg');
+    background: url('../assets/summary-bg.jpg');
+
     background-size: 100% 100%;
     background-repeat: no-repeat;
 	  background-position: center;    

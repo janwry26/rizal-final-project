@@ -1,6 +1,7 @@
 .team-section{
     height: 100vh;
-    background: url('../assets/team-bg.jpg');
+    background: url('../assets/summary-bg.jpg');
+
     background-repeat: no-repeat;
 	background-position: center;  
     background-size: 100% 100%;  
