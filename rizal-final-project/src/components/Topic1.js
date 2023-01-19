@@ -61,20 +61,7 @@ function Article() {
         >
         <p>
             The arrival of Jose Rizal in Manila on June 26, 1892 caused a great deal of excitement among the people of the Philippines. Because of his popularity, the Spaniards were afraid of him, and as a result, they watched his every move very carefully. All of the homes where he had been searched, and any Filipinos who were seen in his company, were considered to be suspects. In accordance with his plans, he established the La Liga Filipina on July 3, 1892. The event took place in the home of Doroteo Ongjunco in Tondo, Manila. 
-       <div className='show-more'>
-      {showMore ? (
-        <div >
-          <button onClick={() => setShowMore(false)}>Show Less</button>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      ) : (
-        <div>
-          <button onClick={() => setShowMore(true)}>Show More</button>
-        </div>
-      )}
-    </div>
+      
         </p>
       
       </div>
@@ -179,8 +166,12 @@ function Article() {
         <p>
         <strong>Rizal's House at Dapitan </strong><br/>
         It so happened that a lottery ticket he had purchased won him a prize of 6,000 pesos, all of which he spent in Dapitan. He had purchased the ticket in Dapitan. He purchased sixteen hectares of land along the bay a few hundred meters east of the town of Dapitan, and on this land he built himself a small house. 
-        </p>
-        <p>
+       
+        <div className='show-more'>
+      {showMore ? (
+        <div >
+          <button className='button2 fix-btn' onClick={() => setShowMore(false)}>Show Less</button>
+          <p>
         <strong>Rizal's Workshop for his students</strong> <br/>
         Rizal established a school in the year 1893. It started out with three students and eventually increased to a total of 16 students. His students did not have to pay any tuition. He put them to work in his garden, fields, and on community construction projects rather than collecting tuition from them. Reading, writing, languages (including Spanish and English), geography, history, mathematics (including arithmetic and geometry), industrial work, nature study, morals, and gymnastics were all subjects that Rizal instructed his sons in. They learned how to collect specimens of plants and animals, how to love working, and how to "behave-like-men" as a result of his training.
         </p>
@@ -188,6 +179,15 @@ function Article() {
         <strong>Rizal's Clinic</strong> <br/>
         Rizal established a school in the year 1893. It started out with three students and eventually increased to a total of 16 students. His students did not have to pay any tuition. He put them to work in his garden, fields, and on community construction projects rather than collecting tuition from them. Reading, writing, languages (including Spanish and English), geography, history, mathematics (including arithmetic and geometry), industrial work, nature study, morals, and gymnastics were all subjects that Rizal instructed his sons in. They learned how to collect specimens of plants and animals, how to love working, and how to "behave-like-men" as a result of his training.
         </p>
+        </div>
+      ) : (
+        <div>
+          <button className='button2 fix-btn' onClick={() => setShowMore(true)}>Show More</button>
+        </div>
+      )}
+    </div>
+    </p>
+      
        
       </div>
     <div className='hero-container'>
@@ -257,13 +257,27 @@ function Article() {
         <p>
         Rizal made the most of his time in Dapitan by working on his artistic and literary skills, doing agricultural and civic projects, engaging in business activities, and writing letters to his European friends, particularly Ferdinand Blumentritt and Reinhold Rost. His careers and accomplishments in various fields were as follows:
         As a physician, Rizal provided free medicine to his patients, the majority of whom were impoverished. He did, however, have wealthy patients who compensated him well for his excellent surgical skills. Don Ignacio Tumarong gave Rizal 3000 pesos for restoring his sight, an Englishman gave him 500 pesos, and Aklanon haciendero Don Francisco Azcarraga paid him a cargo of sugar. His abilities were put to the test in August 1893, when his mother, Doa Teodora Alonzo, underwent ophthalmic surgery for the third time. The operation was a success, but Alonzo disobeyed her son's instructions and removed the bandages from her eyes, causing irritation and infection. <br/><br/>
-        Rizal's knowledge as an engineer was put to use in the waterworks system, he built in Dapitan. Returning to his academic career, Rizal was awarded the title of expert surveyor (perito agrimensor) by the Ateneo Municipal. He supplemented his practical knowledge as an agrimensor by reading engineering-related books. As a result, despite the inadequacy of the tools at his disposal, he was able to provide a good water system in the province.
+        <div className='show-more'>
+      {showMore ? (
+        <div >
+          <button className='button2' onClick={() => setShowMore(false)}>Show Less</button>
+          <p>
+          Rizal's knowledge as an engineer was put to use in the waterworks system, he built in Dapitan. Returning to his academic career, Rizal was awarded the title of expert surveyor (perito agrimensor) by the Ateneo Municipal. He supplemented his practical knowledge as an agrimensor by reading engineering-related books. As a result, despite the inadequacy of the tools at his disposal, he was able to provide a good water system in the province.
         Rizal, as an educator, founded a school in Dapitan that was attended by 16 young boys from prominent families. Instead of charging them for matriculation, he made them do community service projects for him, such as maintaining his garden and field. He taught them English and Spanish reading and writing, geography, history, mathematics, industrial work, nature study, morals, and gymnastics. He encouraged his students to participate in sports in order to strengthen their bodies. There was no formal room, as there is in a typical classroom today. From 2 p.m. to 4 p.m., classes were held with the teacher sitting on a hammock and the students sitting on a long bamboo bench. <br/><br/>
         Rizal spent time as an agriculturist planting important crops and fruit-bearing trees on his 16-hectare farm (later, reaching as large as 70 hectares). He grew cacao, coffee, sugarcane, and coconuts, among other things. He even put a portion of his earnings as a doctor and his 6000-peso lottery winnings into real estate. He imported agricultural machinery from the United States and taught modern agricultural methods to Dapitan's native farmers. Rizal also imagined an agricultural colony in Sitio Ponot, within Sindagan Bay. He thought the area was suitable for cattle-raising and cash crops because it had plenty of water. Unfortunately, this plan did not come to fruition. <br/><br/>
         Rizal was little known as an inventor. During his medical practice in Calamba in 1887, he invented a special type of lighter known as sulpukan, which he gave to Blumentritt as a gift. The mechanism of the wooden lighter, according to Rizal, was based on the principle of compressed air. Another of his inventions was the wooden brick-maker, which can produce approximately 6,000 bricks per day.
         As a linguist, Rizal was interested in the languages spoken in Dapitan, so he studied and compared the Bisayan and Malayan languages spoken in the area. Rizal spoke Tagalog, Ilocano, Bisayan, Subanun, Spanish, Latin, Greek, English, French, German, Arabic, Malayan, Hebrew, Sanskrit, Dutch, Catalan, Italian, Chinese, Japanese, Portuguese, Swedish, and Russian. <br/><br/>
         Rizal, as a scientist, shared his love of nature with his students. They explored the jungles with his boys, looking for specimens to send to museums in Europe, particularly the Dressed Museum. In exchange, European scientists sent him scientific books and surgical instruments. He also conducted extensive research and studies in ethnography, archaeology, geology, anthropology, and geography.
 
+          </p>
+        </div>
+      ) : (
+        <div>
+          <button className='button2' onClick={() => setShowMore(true)}>Show More</button>
+        </div>
+      )}
+    </div>
+        
         </p>
        
       </div>
@@ -297,9 +311,25 @@ function Article() {
         >
         <p>
         Rizal had always missed his family and their happy times together in Calamba, and his grief was compounded by the news of Leonor Rivera's death. To his surprise, an Irish girl soon enlightened his rather bleak heart. This girl was Josephine Bracken, an 18-year-old who, in the words of Wenceslao Retana, was "slender, a chestnut blond, with blue eyes, dressed in elegant simplicity, with an atmosphere of light (gaiety)." <br/><br/>
-        In February 1895, she arrived in Dapitan with his blind foster father, George Taufer, and a Filipina named Manuela Orlac from Hongkong. Rizal's reputation as an ophthalmic surgeon had spread internationally, and one of Rizal's friends, Julio Llorente, referred the group to Rizal. <br/><br/>     
+        <div className='show-more'>
+      {showMore ? (
+        <div >
+          <button className='button2' onClick={() => setShowMore(false)}>Show Less</button>
+          <p>
+          In February 1895, she arrived in Dapitan with his blind foster father, George Taufer, and a Filipina named Manuela Orlac from Hongkong. Rizal's reputation as an ophthalmic surgeon had spread internationally, and one of Rizal's friends, Julio Llorente, referred the group to Rizal. <br/><br/>     
         Rizal and Bracken fell in love right away and agreed to marry in just one month, which shocked and disturbed Taufer. However, the parish priest of Dapitan, Father Pedro Obach, refused to do so unless the Bishop of Cebu approved. <br/><br/>
         Taufer, on the other hand, returned to Hong Kong uncured. Because no priest would marry the couple, they exchanged vows before God in their own way, which scandalized Fr. Obach. Their love bore fruit in 1896 when Josephine became pregnant. Bracken gave birth to a one-month premature baby boy who died after only three hours. The child was named Francisco after Rizal's father and buried in Dapitan.
+
+          </p>
+        </div>
+      ) : (
+        <div>
+          <button className='button2' onClick={() => setShowMore(true)}>Show More</button>
+        </div>
+      )}
+    </div>
+        
+        
         </p>
        
       </div>
