@@ -53,8 +53,8 @@
     padding: 0.3em 1em;
     font-size: 18px;
     border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
+    background: #e8e8e842;
+    border: 1px solid #e8e8e850;
     box-shadow: 6px 6px 12px #c5c5c5,
                -6px -6px 12px #ffffff;
   }
@@ -201,7 +201,7 @@
    
   
     .article__hero-image {
-      height: 300px;
+      height: 250px;
     }
     .hero-container{
         flex-direction: column;
@@ -209,8 +209,7 @@
         padding: 0;
     }
     .carousel img{
-      height:100%;
-      max-height: 160px;
+      height:250px;
       
     }
 }

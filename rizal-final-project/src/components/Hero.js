@@ -30,7 +30,7 @@ function Hero(){
                         
                    </div>
                 </div>
-                <div className="col-lg-6 col-md-12 img-container" data-aos="zoom-in-left"  data-aos-duration="1000">
+                <div className="col-lg-6 col-md-12 img-container">
                     
                        <img className='img-fluid' alt="hero-pic" src={rizal}/>
                   
